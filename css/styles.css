@@ -1,0 +1,43 @@
+body {
+	 font-family: 'Laila', serif;
+	 color: #e27c3c;
+	 font-weight: 500;
+	 background-color: #d2c9ba;
+}
+
+.header {
+  	background-color: #4a3728;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.text-muted {
+    color: #4a3728;
+}
+
+.text-thin {
+    font-weight: 300;
+    color: #87ad96;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.text-yellow {
+  	color: #ffbe3e;
+}
+
+.modal-content {
+  background-color: #d2c9ba;
+}
+
+.btn {
+  background-color: #4a3728;
+}

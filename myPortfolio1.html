@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio Mock</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://fonts.googleapis.com/css?family=Laila:300,500" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="row header">
+                <div class="col-md-6">
+                    <img class="title-logo img-responsive img-circle" src="https://placeimg.com/100/100/arch" alt="logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Mike Baker</h1>
+                    <h3>Front-End Development</h3>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <section class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive center-block" src="https://placeimg.com/1000/400/tech" alt="main image">
+                </div>
+            </section>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive center-block img-circle" src="https://placeimg.com/550/300/people/grayscale" alt="image" data-toggle="modal" data-target="#project1">
+                    <h2 class="text-center text-thin">Projects</h2>
+                    <p class="text-center">Some examples of work done</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive center-block img-circle" src="https://placeimg.com/550/300/tech" alt="image" data-toggle="modal" data-target="#project2" >
+                    <h2 class="text-center text-thin">Web Apps</h2>
+                    <p class="text-center">Apps that I have built</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive center-block img-circle" src="https://placeimg.com/550/300/nature" alt="image" data-toggle="modal" data-target="#project3">
+                    <h2 class="text-center text-thin">Contact Info</h2>
+                    <p class="text-center">Please contact me for more info</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive center-block img-circle" src="https://placeimg.com/550/300/animals/sepia" alt="image" data-toggle="modal" data-target="#project4" >
+                    <h2 class="text-center text-thin">Skills</h2>
+                    <p class="text-center">My Skills</p>
+                </div>
+            </div>
+        </div>
+            <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel1">Projects</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://placeimg.com/550/300/people" alt="image">
+                        <p>www.github.com/Bakermg</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Modal -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel2">Web Apps</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://placeimg.com/550/300/tech" alt="image">
+                        <p>www.github.com/Bakermg</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Modal -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel3">Contact Info</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://placeimg.com/550/300/tech" alt="image">
+                        <p>twitter @bakermg e-mail bakermg@me.com github www.github.com/Bakermg</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Modal -->
+        <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel4">Skills</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="https://placeimg.com/550/300/tech" alt="image">
+                        <p>HTML5 CSS Javascript JSON jQuery Bootstrap</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
